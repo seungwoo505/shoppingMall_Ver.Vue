@@ -1,24 +1,19 @@
-# shopping
+# shoppingMall
 
-## Project setup
-```
-npm install
-```
+기획 당시에는 Vue를 연습해볼겸 포트폴리오용으로 쇼핑몰을 제작해보자고 생각했으나
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+로그인 기능 구현 도중 심각한 오류를 발생했습니다.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Vue는 스크립트 레벨에서 데이터를 취급하기에 reload 시 데이터가 소실된다는 사실이라는 것이다.
 
-### Lints and fixes files
-```
-npm run lint
-```
+다른 프로젝트였다면 그냥 구현하면 되겠지만 쇼핑몰의 경우엔 reload가 필요하다고 생각되어
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue를 유지하려고했으나 방법이 storage에 저장하는 방법이라는 것이다.
+
+그렇게 되면 리소스를 많이 차지하게되고 storage로 할 경우 user 단에서의 왜곡이 발생될 수 있기에
+
+쇼핑몰의 경우 Vue는 적합하지않다고 판단하여 해당 프로젝트는 여기서 마무리하기로 했습니다.
+
+프로젝트는 이어서 React로 이관하여 연속해서 제작할 예정입니다.
+
+URL : ( 추후 공개 예정 )
