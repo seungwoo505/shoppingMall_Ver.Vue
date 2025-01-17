@@ -5,7 +5,7 @@
         <form @submit.prevent="handleLogin">
             <div>
                 <label for="userId">아이디 : </label>
-                <input v-model="form.userId" id="userId" type="userId" required/>
+                <input v-model="form.userId" id="userId" type="text" required/>
             </div>
 
             <div>

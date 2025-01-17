@@ -7,12 +7,12 @@
 </template>
 
 <style lang="css" scoped>
-.succes-container {
+.success-container {
     text-align: center;
     margin-top: 50px;
 }
 
-.succes-container a {
+.success-container a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;

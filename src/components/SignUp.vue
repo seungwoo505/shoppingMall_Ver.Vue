@@ -4,7 +4,7 @@
         <form @submit.prevent="handleSignUp">
             <div>
                 <label for="userId">Id : </label>
-                <input v-model="form.userId" id="userId" type="userId" required/>
+                <input v-model="form.userId" id="userId" type="text" required/>
             </div>
 
             <div>
